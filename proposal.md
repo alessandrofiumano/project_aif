@@ -9,14 +9,12 @@ Student ID: 671859 · j.bianco@studenti.unipi.it
 Student ID: 674559 · a.fiumano1@studenti.unipi.it
 
 ---
-
 ## The problem
 Our objective is to study how pre-trained LLMs solve search problems, investigating whether they can reproduce the behavior 
 of classical search algorithms.
 We will prompt an LLM to solve the search problem using a specified algorithm, for instance:
 "Solve the following search problem using BFS. Output your solution represented as an ordered sequence of nodes from the
 initial state to the goal."
-
 The environment will be FrozenLake from the Gymnasium library. We will provide the LLM with a description of the environment
 and allow it to interact with it through function calling.
 The available functions will provide the information needed to understand and explore the environment, such as its initial
